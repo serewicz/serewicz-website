@@ -38,15 +38,24 @@ To update content:
 4. Avoid confidential client names or private company details.
 5. Keep placeholder links updated as real URLs become available.
 
-Common placeholders to replace:
+Configured contact and asset links:
 
-- Email
-- Schedule a Conversation
-- Download CV
-- EvilTux articles
-- Webinar archive
-- Podcast appearances
-- Conference appearances
+- Email: `mailto:Tim@Serewicz.com`
+- Schedule a Conversation: `https://calendar.app.google/2KmjiyNZjh3FSQUy7`
+- Download CV: `assets/timothy-serewicz-cv.pdf`
+- GitHub: `https://github.com/serewicz`
+- LinkedIn: `https://www.linkedin.com/in/serewicz/`
+
+## Updating Assets
+
+Headshot:
+Replace `images/headshot.jpg` with a new file using the same filename.
+
+CV:
+Replace `assets/timothy-serewicz-cv.pdf` with a new file using the same filename.
+
+Contact Links:
+Update schedule, GitHub, LinkedIn, and email links directly in the HTML files.
 
 ## Deployment
 

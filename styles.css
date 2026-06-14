@@ -164,6 +164,16 @@ p {
   background: var(--surface);
 }
 
+.headshot {
+  display: block;
+  width: 100%;
+  max-width: 220px;
+  aspect-ratio: 1;
+  margin: 0 0 1.25rem;
+  border: 1px solid var(--border);
+  object-fit: cover;
+}
+
 .hero-panel ul,
 .plain-list {
   margin: 0;
