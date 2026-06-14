@@ -57,6 +57,16 @@ Replace `assets/timothy-serewicz-cv.pdf` with a new file using the same filename
 Contact Links:
 Update schedule, GitHub, LinkedIn, and email links directly in the HTML files.
 
+## Speaking Assets
+
+- `images/mwc-keynote-1.jpg`: primary keynote image
+- `images/mwc-keynote-2.jpg`: alternate keynote or audience image
+- `images/mwc-main-stage.jpg`: additional main-stage programming image
+
+To update speaking images, replace the files in the `images` folder using the same filenames. Keep images web-optimized and preferably under 500 KB each.
+
+The Talent Arena / Mobile World Congress announcement link is used as the verification link for the featured keynote appearance.
+
 ## Deployment
 
 The site can be deployed on GitHub Pages, Netlify, Vercel, Cloudflare Pages, or any static web host.
