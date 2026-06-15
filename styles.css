@@ -188,6 +188,18 @@ p {
   margin: 0;
 }
 
+.featured-photo {
+  margin: 0;
+}
+
+.featured-photo img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  border: 1px solid var(--border);
+  object-fit: cover;
+}
+
 .gallery-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
