@@ -5,6 +5,7 @@ Clean static website for Timothy Serewicz's CTO, technology executive, fractiona
 ## Structure
 
 - `index.html` - home page
+- `work-with-me.html` - engagement areas and advisory services
 - `speaking.html` - speaking and industry engagements
 - `contact.html` - contact and inquiry links
 - `styles.css` - shared site styling
@@ -50,19 +51,19 @@ Replace `images/headshot.jpg` with a new file using the same filename.
 Contact Links:
 Update schedule, GitHub, LinkedIn, and email links directly in the HTML files.
 
-## Deployment
+## Build and Manual Deployment
 
-The site can be deployed on GitHub Pages, Netlify, Vercel, Cloudflare Pages, or any static web host.
+No build step is required. The site is plain HTML, CSS, images, and static assets.
 
-For GitHub Pages:
+To deploy manually through cPanel:
 
-1. Push the repository to GitHub.
-2. Open repository settings.
-3. Go to Pages.
-4. Select the `main` branch and root directory.
-5. Save the configuration.
+1. Preview the site locally and confirm links, copy, images, and responsive layout.
+2. In cPanel File Manager or FTP, open the website document root, commonly `public_html`.
+3. Upload the updated `.html` files, `styles.css`, the `images/` directory, and the `assets/` directory.
+4. Replace existing files when prompted.
+5. Visit `https://serewicz.com` and key pages directly, including `/work-with-me.html`, to confirm the upload.
 
-No build step is required.
+Do not add GitHub Actions or deployment automation unless the deployment model changes.
 
 ## Design Principles
 
